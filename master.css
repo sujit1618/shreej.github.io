@@ -36,9 +36,10 @@ div {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 140%;
-    font-weight: 600;
+    font-weight: 400;
+    color: #37393B;
 }
 
 h3 {
@@ -59,7 +60,7 @@ body {
 
 .nav-container {
     padding: 12px 0;
-    background: rgba(245, 243, 241, 0.95);
+    background: #fffffff5;
     backdrop-filter: blur(24px);
     /* box-shadow: 0px 0px 10px #3333333b; */
     position: fixed;
@@ -133,6 +134,7 @@ body {
 .head-banner {
     background-image: url(./images/head-banner-5.jpg);
     background-size: cover;
+    padding: 74px 0 0 0;
 }
 
 .section-wrapper {
@@ -140,7 +142,7 @@ body {
     min-width: 800px;
     width: 70%;
     max-width: 1040px;
-    margin: 74px auto 0 auto;
+    margin: 0 auto 0 auto;
     /* height: 60vh; */
     /* background-color: aqua; */
 }
@@ -225,4 +227,24 @@ body {
 
 #rating-line{
     font-size: 18px;
+}
+
+.client-list{
+    padding: 75px 0 120px 0;
+}
+
+.clients-wrapper{
+    min-width: 800px;
+    width: 70%;
+    max-width: 1040px;
+    margin: 0 auto 0 auto;
+}
+
+#clientLogos{
+    display: block;
+    mix-blend-mode: multiply;
+    min-width: 800px;
+    /* width: 70%; */
+    max-width: 1040px;
+    margin: 65px auto 0 auto;
 }
