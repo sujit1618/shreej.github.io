@@ -70,13 +70,14 @@ body {
     z-index: 10;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
+    color: #37393B !important;
 }
 
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 800px;
+    min-width: 900px;
     width: 70%;
     max-width: 1040px;
     margin: 0 auto
@@ -139,7 +140,7 @@ body {
 
 .section-wrapper {
     /* width: 800px; */
-    min-width: 800px;
+    min-width: 900px;
     width: 70%;
     max-width: 1040px;
     margin: 0 auto 0 auto;
@@ -243,8 +244,9 @@ body {
 #clientLogos{
     display: block;
     mix-blend-mode: multiply;
-    min-width: 800px;
+    width: 95%;
+    /* min-width: 900px; */
     /* width: 70%; */
-    max-width: 1040px;
+    /* max-width: 1040px; */
     margin: 65px auto 0 auto;
 }
