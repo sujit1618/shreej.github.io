@@ -55,6 +55,7 @@ body {
     line-height: 130% !important;
     scroll-behavior: smooth !important;
     background-image: url(./images/bg-2.jpg);
+    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -283,7 +284,7 @@ body {
 
 .product-listing{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 120px auto;
     grid-template-rows: auto;
     padding: 0 12px 0 24px;
 }
@@ -332,32 +333,32 @@ li{
 }
 
 #books{
-    grid-column: 1 / span 1;
+    grid-column: 3 / span 1;
     grid-row: 1 / span 1;
 }
 
 #brochures{
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
 }
 
 #inserts{
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
 }
 
 #calendars{
     grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
 }
 
 #packaging{
     grid-column: 2 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
 }
 
 #business{
-    grid-column: 3 / span 1;
+    grid-column: 1 / span 1;
     grid-row: 2 / span 1;
 }
 
