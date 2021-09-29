@@ -129,7 +129,7 @@ body {
 
 #contact-number {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .head-banner {
@@ -423,4 +423,5 @@ li {
 
 .services p{
     font-weight: 600;
+    font-size: 16px;
 }
