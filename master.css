@@ -425,3 +425,16 @@ li {
     font-weight: 600;
     font-size: 16px;
 }
+
+#services-list-button {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 36px #dddddd3d;
+}
+
+#services-list-button:hover
+ {
+    transform: scale(1.05, 1.05);
+    /* box-shadow: 0px 0px 52px rgba(17, 24, 7, 0.795); */
+    box-shadow: 0px 0px 52px #ebebeb79;
+}
