@@ -320,6 +320,7 @@ li {
     padding: 15px 0 15px 0;
     font-size: 13px;
     color: #161a1fd7;
+    box-shadow: inset 0 0 15px #bbb;
 }
 
 .footer-wrapper {
