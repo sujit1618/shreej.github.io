@@ -115,6 +115,12 @@ body {
     text-align: center;
 }
 
+h3{
+
+    display: block;
+    text-align: center;
+}
+
 /* #resume-link{ */
 /* margin-right: 0px; */
 /* } */

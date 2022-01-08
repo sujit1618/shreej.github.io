@@ -14,3 +14,9 @@ function newJobForm() {
 function newClientForm() {
     window.open('https://airtable.com/shrf0Ueb2uThl4DxQ');
 }
+function viewClientDiscussion() {
+    window.open('https://airtable.com/shrTW0tuTCDPTsCVH');
+}
+function viewAllOrders() {
+    window.open('https://airtable.com/shr3Dd15J94gnNPTA');
+}
