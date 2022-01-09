@@ -21,5 +21,5 @@ function viewAllOrders() {
     window.open('https://airtable.com/shr3Dd15J94gnNPTA');
 }
 function viewJobStage() {
-    window.open('https://airtable.com/shrX3tMbz1aP6EVCc');
+    window.open('https://airtable.com/shr21dP7c3HpcjCTk');
 }
