@@ -23,3 +23,6 @@ function viewAllOrders() {
 function viewJobStage() {
     window.open('https://airtable.com/shr21dP7c3HpcjCTk');
 }
+function viewPendingJobs() {
+    window.open('https://airtable.com/shruqtzzNhCwzLtRj/tbloW6vFGkUAt13ey');
+}
