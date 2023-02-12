@@ -466,7 +466,7 @@ li {
     padding: 10px 0 0 0;
     display: grid;
     grid-template-columns: 280px auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     row-gap: 12px;
 }
 
@@ -551,6 +551,25 @@ li {
 }
 
 .address-container a{
+    display: block;
+    color: #fff;
+    font-weight: 300;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+}
+
+.link-container img{
+    display: block;
+    padding: 0 8px 0 0;
+    height: 24px;
+}
+
+.link-container a{
     display: block;
     color: #fff;
     font-weight: 300;
