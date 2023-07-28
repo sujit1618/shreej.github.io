@@ -11,9 +11,9 @@ function newJobForm() {
     window.open('https://airtable.com/appe5vnQC7Rh19mee/shrdDQuwuozpTcO32');
 }
 
-// function newClientForm() {
-    // window.open('https://airtable.com/shrf0Ueb2uThl4DxQ');
-// }
+function newClientForm() {
+    window.open('https://airtable.com/appe5vnQC7Rh19mee/shr3vjKKXkQCAHpBa');
+}
 // function viewClientDiscussion() {
     // window.open('https://airtable.com/shrTW0tuTCDPTsCVH');
 // }
