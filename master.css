@@ -877,37 +877,40 @@
         background-image: url(./images/products-banner-2.jpg);
         background-attachment: fixed;
         background-size: cover;
-
+        padding: 36px 0;
     }
 
     .products-wrapper {
-        min-width: 900px;
-        width: 70%;
-        max-width: 1040px;
+        /* min-width: 900px; */
+        width: 80%;
+        /* max-width: 1040px; */
         margin: 0 auto 0 auto;
-        background-color: rgba(184, 212, 230, 0.15);
-        padding: 75px 48px 60px 48px;
+        /* background-color: rgba(184, 212, 230, 0.15); */
+        
     }
 
     .products-wrapper h2 {
+        display: block;
         color: rgba(245, 243, 241);
         text-shadow: 0px 0px 40px rgba(17, 24, 7, 0.98);
         font-weight: 400;
+        text-align: center;
     }
 
     .products-list-container {
         margin: 48px auto 52px auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        row-gap: 24px;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* grid-template-rows: 1fr 1fr; */
+        /* row-gap: 12px; */
     }
 
     .product-listing {
         display: grid;
-        grid-template-columns: 120px auto;
+        grid-template-columns: 60% auto;
         grid-template-rows: auto;
-        padding: 0 12px 0 24px;
+        margin-bottom: 28px;
+        /* padding: 0 12px 0 24px; */
     }
 
     .product-listing img,
@@ -926,20 +929,20 @@
     }
 
     .product-listing img {
-        height: 70px;
+        width: auto;
         padding-top: 12px;
         margin: 0 auto;
     }
 
 
 
-    .border-overlay {
-        z-index: 1;
-        grid-column: 2 / span 1;
-        grid-row: 1 / span 2;
-        border-left: solid #f0c56f 1px;
-        border-right: solid #f0c56f 1px;
-    }
+    /* .border-overlay { */
+        /* z-index: 1; */
+        /* grid-column: 2 / span 1; */
+        /* grid-row: 1 / span 2; */
+        /* border-left: solid #f0c56f 1px; */
+        /* border-right: solid #f0c56f 1px; */
+    /* } */
 
     #books {
         grid-column: 3 / span 1;
