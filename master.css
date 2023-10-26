@@ -691,11 +691,11 @@
     }
 
     .nav-wrapper {
-        display: flex;
-        justify-content: center;
+        display: block;
+        justify-content: space-around;
         align-items: center;
         /* min-width: 900px; */
-        width: 80%;
+        width: 255px;
         /* max-width: 1040px; */
         margin: 0 auto
     }
@@ -725,6 +725,13 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: auto;
         column-gap: 5px;
+    }
+
+    #on-mobile{
+        display: block;
+        margin: 6px auto;
+        text-align: center;
+        line-height: 170%;
     }
 
     .links-container a {
@@ -778,7 +785,7 @@
         display: block;
         height: 150px;
         filter: drop-shadow(0px 0px 45px #111807);
-        margin: 70px auto 0 auto;
+        margin: 140px auto 0 auto;
         /* shape-rendering: crispEdges; */
     }
 
@@ -1038,9 +1045,9 @@
     }
 
     #services-list-button {
-        display: block;
+        display: none;
         margin: 0 auto;
-        box-shadow: 0px 0px 36px #dddddd3d;
+        box-shadow: 0px 0px 36px #2828283d;
     }
 
     #services-list-button:hover {
@@ -1050,43 +1057,56 @@
     }
 
     .contact-footer {
-        background-color: #37393B;
-        padding: 40px 0 70px 0;
+        background-color: #181818;
+        background-position: center;
+        background-size: cover;
     }
 
     .contact-wrapper {
-        min-width: 900px;
-        width: 70%;
-        max-width: 1040px;
-        margin: 0 auto 0 auto;
+        width: 88%;
+        max-width: 1269px;
+        margin: 0 auto;
+        padding: 36px 12px;
+        color: #fff !important;
     }
 
     .main-grid {
-        display: grid;
+        display: block;
         grid-template-columns: auto 150px;
         grid-template-rows: auto;
     }
 
     .head-grid {
-        display: grid;
+        display: block;
         grid-template-columns: 150px auto;
         grid-template-rows: auto;
         column-gap: 22px;
     }
 
+    .logo img {
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+    }
+
     .text-grid {
         padding: 10px 0 0 0;
-        display: grid;
-        grid-template-columns: 280px auto auto;
+        display: block;
+        grid-template-columns: 300px auto auto auto;
         grid-template-rows: auto auto auto auto;
-        row-gap: 12px;
+        row-gap: 36px;
     }
 
     .text-grid h2 {
         display: block;
-        color: #fff;
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 4;
         grid-row: 1 / span 1;
+        margin: 12px 0;
+        color: #fff !important
+    }
+
+    .text-grid div{
+        margin: 12px 0;
     }
 
     .email-container {
@@ -1094,6 +1114,7 @@
         align-items: center;
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
+        font-size: 15px;
     }
 
     .email-container img {
@@ -1104,8 +1125,8 @@
 
     .email-container a {
         display: block;
-        color: #fff;
-        font-weight: 300;
+        font-size: 15px;
+        color: #fff !important
     }
 
 
@@ -1114,6 +1135,7 @@
         align-items: center;
         grid-column: 2 / span 1;
         grid-row: 2 / span 1;
+        color: #fff !important
     }
 
     .landline-container img {
@@ -1124,8 +1146,8 @@
 
     .landline-container a {
         display: block;
-        color: #fff;
-        font-weight: 300;
+        font-size: 15px;
+        color: #fff !important
     }
 
 
@@ -1144,8 +1166,8 @@
 
     .mobile-container a {
         display: block;
-        color: #fff;
-        font-weight: 300;
+        font-size: 15px;
+        color: #fff !important
     }
 
 
@@ -1164,15 +1186,15 @@
 
     .address-container a {
         display: block;
-        color: #fff;
-        font-weight: 300;
-    }
+        font-size: 15px;
+        color: #fff !important
 
+    }
     .link-container {
         display: flex;
         align-items: center;
         grid-column: 1 / span 3;
-        grid-row: 4 / span 1;
+        grid-row: 3 / span 1;
     }
 
     .link-container img {
@@ -1183,28 +1205,26 @@
 
     .link-container a {
         display: block;
-        color: #fff;
-        font-weight: 300;
-    }
+        font-size: 15px;
+        color: #fff !important
 
+    }
+    
     .main-grid .buttons-container {
-        margin: 4px 0 0 0;
+        margin: 24px auto 0 auto;
     }
 
 
     .footer {
-        background-color: rgba(245, 243, 241);
+        background-color: #fff;
         padding: 15px 0 15px 0;
-        font-size: 13px;
-        color: #161a1fd7;
-        box-shadow: inset 0 0 15px #bbb;
+        font-size: 10px;
+        color: #000;
+        /* box-shadow: inset 0 0 15px #bbb; */
     }
 
     .footer-wrapper {
-        min-width: 900px;
-        width: 70%;
-        max-width: 1040px;
+        width: 95%;
         margin: 0 auto 0 auto;
-        text-align: center;
     }
 }
