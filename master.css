@@ -117,6 +117,9 @@
         display: block;
         margin: auto 0 auto 0;
     }
+    #on-mobile{
+        display: none;
+    }
 
     .links-container {
         display: grid;
