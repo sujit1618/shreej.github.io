@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/ # Example: if you had such a directory you wanted to block
+
+Sitemap: https://www.shreejprinters.com/sitemap.xml
